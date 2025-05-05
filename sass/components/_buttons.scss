@@ -1,0 +1,17 @@
+@use '/sass/abstracts/mixins' as mx;
+
+.button {
+    @include mx.button();
+}
+
+.button--pink-orange {
+    @include mx.button--pink-orange;
+}
+
+.button--pink-blue {
+    @include mx.button--pink-blue;
+}
+
+.button-link {
+    @include mx.button-link;
+}

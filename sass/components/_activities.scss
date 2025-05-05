@@ -1,0 +1,42 @@
+@use '/sass/abstracts/variables' as v;
+
+.activities {
+
+    &__header {
+        background-image: v.$gradient-pink-orange;
+        padding: 25px 30px;
+        color: v.$white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    &__item {
+        padding: 1rem 1.4rem;
+        
+        &-animation {
+            
+        }
+
+        &_icon {
+
+        }
+        
+        &_title {
+            color: v.$black;
+            font-size: 20px;
+            margin-bottom: 16px;
+        }
+        
+        &_description {
+            font-size: 16px;
+            line-height: 20px;
+            color: v.$grey;
+            margin-bottom: 16px;
+        }
+
+        &_cta {
+
+        }
+        
+    }
+}

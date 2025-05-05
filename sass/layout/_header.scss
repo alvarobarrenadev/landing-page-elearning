@@ -1,0 +1,18 @@
+@use '/sass/abstracts/variables' as v;
+@use '/sass/abstracts/mixins' as mx;
+
+header.main-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    ul {
+        @include mx.reset-list;
+    }
+}
