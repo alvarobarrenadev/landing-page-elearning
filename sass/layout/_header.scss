@@ -19,4 +19,8 @@ header.main-header {
     @include mx.breakpoint(tablethorizontal) {
         margin-bottom: 70px;
     }
+
+    @include mx.breakpoint(desktop) {
+        margin-bottom: 20px;
+    }
 }

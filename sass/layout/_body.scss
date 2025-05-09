@@ -6,8 +6,14 @@ body {
         background-repeat: no-repeat;
         background-position: 125% 0;
         background-size: 400px;
+        
         @include mx.breakpoint(tablethorizontal) {
             background-position: 120% 0;
+            background-size: 600px;
+        }
+
+        @include mx.breakpoint(desktop) {
+            background-position: 108% -20px;
             background-size: 600px;
         }
     }
