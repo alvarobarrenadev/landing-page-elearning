@@ -15,4 +15,8 @@ header.main-header {
     ul {
         @include mx.reset-list;
     }
+
+    @include mx.breakpoint(tablethorizontal) {
+        margin-bottom: 70px;
+    }
 }

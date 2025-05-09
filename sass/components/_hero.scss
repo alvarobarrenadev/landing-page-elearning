@@ -3,6 +3,9 @@
 
 .hero {
     margin-bottom: 65px;
+    @include mx.breakpoint(tablethorizontal) {
+        margin-bottom: 80px;
+    }
 
     &__title {
         margin-bottom: 26px;
@@ -31,6 +34,10 @@
         @include mx.breakpoint(tablet) {
             width: 50%;
             margin: 0;
+        }
+
+        @include mx.breakpoint(tablethorizontal) {
+            height: 500px;
         }
 
         img {
@@ -80,6 +87,13 @@
             @include mx.breakpoint(tablet) {
                 top: -33px;
             }
+            
+            @include mx.breakpoint(tablethorizontal) {
+                top: 135px;
+                right: 35px;
+                padding-right: 40px;
+
+            }
         }
 
         &-2 {
@@ -91,6 +105,12 @@
                 left: 85px;
                 bottom: -10px;
             }
+
+            @include mx.breakpoint(tablethorizontal) {
+                left: 5px;
+                bottom: 35px;
+                padding-right: 45px;
+            }
         }
 
     }
@@ -98,12 +118,23 @@
     .container {
         @include mx.breakpoint(tablet) {
             display: flex;
+            justify-content: space-between;
+            padding-bottom: 80px;
+        }
+
+        @include mx.breakpoint(tablet) {
+            padding-bottom: 100px;
+            align-items: center;
         }
     }
 
     &__content {
         @include mx.breakpoint(tablet) {
             width: 50%;
+        }
+
+        @include mx.breakpoint(tablethorizontal) {
+            width: 40%;
         }
     }
 }

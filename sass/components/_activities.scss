@@ -67,5 +67,9 @@
             grid-template-columns: 1fr 1fr;
             gap: 56px 20px;
         }
+        
+        @include mx.breakpoint(tablethorizontal) {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
     }
 }
