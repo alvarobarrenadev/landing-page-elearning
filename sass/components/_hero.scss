@@ -102,6 +102,11 @@
                 top: 170px;
                 right: 60px;
             }
+
+            @include mx.breakpoint(desktopxl) {
+                top: 140px;
+                right: -60px;
+            }
         }
 
         &-2 {
@@ -122,6 +127,11 @@
             @include mx.breakpoint(desktop) {
                 left: -135px;
                 bottom: 15px;
+            }
+
+            @include mx.breakpoint(desktopxl) {
+                left: -15px;
+                bottom: 10px;
             }
         }
 
